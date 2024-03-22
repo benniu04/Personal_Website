@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/Images/icons8-rocket-48.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben Niu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Loader (Preloader) Element -->
+    <div id="preloader" class="loader_bg">
+      <div class="loader">
+          <div class="progress-bar" id="progressbar"></div>
+      </div>
+      <!-- Percentage Display -->
+      <div id="percentage" class="percentage"></div>
+      <div class="loading-text">Loading...</div>
+    </div>
+
+    <div class="scroll-watcher">
+    </div>
+
+    <div class="particles-background-container">
+      <div id="particles-js">
+      </div>
+      <section class="nav-bar">
+        <div class="nav-contain">
+          <nav>
+            <div class="nav-bar-items">
+              <li><a class="underline" href="homescreen.html">Home</a></li>
+            </div>
+            <div class="nav-bar-items">
+              <li><a class="underline" onclick="call1()">About</a></li>
+            </div>
+            <div class="nav-bar-items">
+              <li><a class="underline" onclick="call()">Projects</a></li>
+            </div>
+            <div class="nav-bar-items">
+              <div class="contact-box">
+                <a href="mailto:nub38bn@gmail.com"><span class="contact-text">Contact</span></a>
+              </div>
+            </div>
+            <div class="nav-bar-items">
+              <div class="resume-box"><a href="https://drive.google.com/file/d/1JucVjLimlzeFvAtVorQ7aXx4anDXHdRp/view?usp=sharing" target="_blank"><span class="resume-text">RESUME</span></a></div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <div class="welcome-container-box">
+        <div class="welcome-text-wrapper">
+          <div class="welcome-text">
+            <h2>Hi, my name is </h2>
+            <h1 class="name-title">Benjamin Niu.</h1>
+            <h1 class="actual-welcome-text">
+              Welcome to my website
+            </h1>
+            <p class="about-description">I am currently a student at Northeastern University studying Computer Science, with an interest in web development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="layout">
+        <main>
+          <div>
+            <div class="contain-box">
+              <div class="grid">
+                <div class="actual-content">
+                  <section class="main-content">
+                    <div class="my-wrapper">
+                      <div class="image-wrapper">
+                        <img src="/Images/northern-lights.JPG" alt="Iceland-me" title="Iceland">
+                      </div>
+                    </div>
+                    <div id="content2" class="about">
+                      <h1>About me</h1>
+                    </div>
+                    <div class="specs-container">
+                      <p class="intro-text">
+                        Hi, my name is Ben and I'm a current student at Northeastern University studying Computer Science. I'm currently undeclared for 
+                        a concentration. However, I am strongly inclined towards either Artificial Intelligence or Software. Some technologies I'm familiar with include: 
+                      </p>
+                      <li class="skills-list">Python</li>
+                      <li class="skills-list">HTML</li>
+                      <li class="skills-list">CSS</li>
+                      <li class="skills-list">Javascript</li>
+                      <li class="skills-list">BeautifulSoup</li>
+                      <li class="skills-list">Requests</li>
+                      <p class="intro-text">
+                        Outside of school, I enjoy playing tennis, travelling the world, and listening to music.
+                      </p>
+                    </div>
+                    <div class="actual-main-content">
+                    </div>
+                    <div class="hardware-text">
+                      <h1>
+                        Hardware I Use
+                      </h1>
+                    </div>
+                    <div class="specs-text">
+                      <div class="specs-container">
+                        <div class="pc-text">
+                          <p class="spec-title">Apple:</p>
+                          <li>Macbook Pro 14in 2021: M1 Pro Chip, 16GB RAM, 512GB SSD</li>    
+                          <p class="spec-title">Windows: PC</p>
+                          <li>Processor: AMD Ryzen 5600x</li>
+                          <li>Memory: 16GB Corsair Vengeance 3200Mhz</li>
+                          <li>Motherboard: MSI MAG B550 Tomahawk</li>
+                          <li>Storage: 1TB NvME SSD</li>
+                          <li>GPU: Radeon 6700XT</li>
+                          <li>PSU: EVGA SuperNova 750W</li>
+                          <li>Case: Maingear Vybe</li>
+                        </div>
+                      </div>
+                    </div>
+                    <div id='cont' class="projects-text">
+                      <h1>
+                        Projects
+                      </h1>
+                    </div>
+                    <div class="project-wrapper">
+                      <div class="project-1">
+                        <div>
+                          <p class="date-1">Feb 2024 -- Mar 2024</p>
+                          <a class="proj-title" href="https://github.com/benniu04/CryptoDigest" target="_blank">Crypto News Scraper</a>
+                          <p class="proj-description">Scrapes Yahoo Finance Cypto articles and uses machine learning to summarize them.</p>
+                        </div>
+                      </div>
+                      <div class="project-2">
+                        <p class="date-2">Mar 2024 -- Present</p>
+                        <a class="proj-title" href="" target="_blank">IOS App</a>
+                        <p class="proj-description">Currently in development...</p>
+                      </div>
+                    </div>
+                    <div class="socials-wrapper">
+                      <ul class="actual-socials-container">
+                        <li>
+                          <a href="https://github.com/benniu04" target="_blank" class="social-icon github"><i class="fa fa-github fa-2x"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/benny_niu327/" target="_blank" class="social-icon instagram"><i class="fa fa-instagram fa-2x"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/ben-niu-244820230/" target="_blank" class="social-icon linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://codepen.io/benniu04" target="_blank" class="social-icon codeopen"><i class="fa fa-codepen fa-2x"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="email-container">
+                      <p class="built-text">Built and Designed by Ben Niu</p>
+                    </div>
+                    <div class="email-container">
+                      <p class="built-text">nub38bn@gmail.com</p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script th:src="@{js/particles.js}" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script th:src="@{js/app.js}" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script th:src="@{js/main.js}" type="text/javascript">
+    </script>
+  </body>
+</html>
