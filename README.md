@@ -15,7 +15,7 @@ https://personalwebsite-n6a13.kinsta.page/
 
 * Clean Aesthetics
 
-Installation and Deployment 🛠️
+## Installation and Deployment 🛠️
 
 - Clone the repository and modify the content of index.html according to your requirement.
 
@@ -24,7 +24,7 @@ Installation and Deployment 🛠️
 - I deployed my website using Kinsta but use whatever website hosting service you are comfortable with
 
 
-Sections 💥
+## Sections 💥
 
 🔥 About me
 
@@ -36,7 +36,7 @@ Sections 💥
 
 🔥 Social Media Links
 
-License ⚠️
+## License ⚠️
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
