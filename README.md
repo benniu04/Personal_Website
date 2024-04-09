@@ -1,6 +1,6 @@
 # **Personal Website** 🚀
 
-https://personalwebsite-n6a13.kinsta.page/
+https://benniu04.github.io/Personal_Website/
 
 ## Website Preview
 
