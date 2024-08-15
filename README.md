@@ -15,13 +15,6 @@ https://benniu04.github.io/Personal_Website/
 
 * Clean Aesthetics
 
-## Installation and Deployment 🛠️
-
-- Clone the repository and modify the content of index.html according to your requirement.
-
-- cd to the main folder and use the command npm run dev to run the live site
-
-- I deployed my website using Kinsta but use whatever website hosting service you are comfortable with
 
 
 ## Sections 💥
