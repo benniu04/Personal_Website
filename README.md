@@ -4,8 +4,7 @@ https://benniu04.github.io/Personal_Website/
 
 ## Website Preview
 
-<img width="900" alt="welcome-intro" src="https://github.com/benniu04/Personal_Website/assets/138111756/df0e3512-ca3d-48ee-90d2-266ecc1e7a68">
-
+![personal-website-prev](https://github.com/user-attachments/assets/b826a411-6f04-4729-a31c-bdc0ef4eaac5)
 
 ## Features 🔑
 
